@@ -73,16 +73,16 @@
                 <a class="nav__link" href="#home_page">Home</a>
               </li>
               <li class="nav__item">
-                <a class="nav__link" href="#about-us">About Us</a>
+                <a class="nav__link" href="#about_us">About Us</a>
               </li>
               <li class="nav__item">
-                <a class="nav__link" href="#now-on-view">Now on view</a>
+                <a class="nav__link" href="#now_on_view">Now on view</a>
               </li>
               <li class="nav__item">
-                <a class="nav__link" href="#explore-online">Explore online</a>
+                <a class="nav__link" href="#explore_online">Explore online</a>
               </li>
               <li class="nav__item">
-                <a class="nav__link" href="#contact-us">Contacts</a>
+                <a class="nav__link" href="#contact_us">Contacts</a>
               </li>
             </ul>
           </nav>
@@ -294,7 +294,8 @@
             </article>
           </div>
 
-          <form method="post" class="form">
+          <form method="post" class="form"
+          onsubmit="this.reset(); return false;">
             <input
               type="text"
               name="name"
@@ -316,7 +317,7 @@
               required
               placeholder="Message"></textarea>
 
-            <button type="reset" class="form__button">Send</button>
+            <button type="submit" class="form__button">Send</button>
           </form>
         </div>
       </section>
