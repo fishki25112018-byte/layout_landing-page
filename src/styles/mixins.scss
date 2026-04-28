@@ -6,8 +6,8 @@
   }
 }
 
-@mixin on-dekstop {
-  @media (min-width: $dekstop-min-width) {
+@mixin on-desktop {
+  @media (min-width: $desktop-min-width) {
     @content;
   }
 }
@@ -27,7 +27,7 @@
     padding-inline: 72px;
   }
 
-  @include on-dekstop {
+  @include on-desktop {
     padding-inline: 120px;
   }
 }
@@ -39,7 +39,7 @@
     transform: translateY(-95%);
   }
 
-  @include on-dekstop {
+  @include on-desktop {
     transform: translateY(-115%);
   }
 }
@@ -53,16 +53,9 @@
 }
 
 @mixin form-width {
-  width: 280px;
-
-  @include on-tablet {
-    width: 288px;
+  width: 100%;
   }
 
-  @include on-dekstop {
-    width: 411px;
-  }
-}
 
 @mixin pictures-animation {
   transform: scale(1.05);

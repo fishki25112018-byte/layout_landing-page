@@ -73,7 +73,7 @@
       margin-right: 24px;
     }
 
-    @include on-dekstop {
+    @include on-desktop {
       background-image: url(../images/new-look-big.png);
       width: 672px;
       height: 320px;
@@ -96,7 +96,7 @@
       height: 186px;
     }
 
-    @include on-dekstop {
+    @include on-desktop {
       background-image: url(../images/men-big.png);
       width: 324px;
       height: 320px;
@@ -121,7 +121,7 @@
       margin-right: 24px;
     }
 
-    @include on-dekstop {
+    @include on-desktop {
       background-image: url(../images/shiva-big.png);
       width: 324px;
       height: 320px;
@@ -146,7 +146,7 @@
       margin-right: 0;
     }
 
-    @include on-dekstop {
+    @include on-desktop {
       background-image: url(../images/carpet-big.png);
       width: 324px;
       height: 320px;
@@ -169,11 +169,11 @@
       display: none;
     }
 
-    @include on-dekstop {
+    @include on-desktop {
       display: block;
     }
 
-    @include on-dekstop {
+    @include on-desktop {
       background-image: url(../images/demon-big.png);
       width: 324px;
       height: 320px;
@@ -199,7 +199,7 @@
       margin-right: 24px;
     }
 
-    @include on-dekstop {
+    @include on-desktop {
       background-image: url(../images/clock-big.png);
       width: 324px;
       height: 320px;
@@ -223,7 +223,7 @@
       height: 186px;
     }
 
-    @include on-dekstop {
+    @include on-desktop {
       background-image: url(../images/statue-big.png);
       width: 672px;
       height: 320px;

@@ -22,7 +22,7 @@
       margin-top: 50px;
     }
 
-    @include on-dekstop {
+    @include on-desktop {
       margin-inline: 120px;
     }
   }
@@ -56,7 +56,7 @@
       font-size: 64px;
     }
 
-    @include on-dekstop {
+    @include on-desktop {
       font-size: 80px;
     }
   }

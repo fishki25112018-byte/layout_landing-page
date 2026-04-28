@@ -14,7 +14,7 @@
   }
 
   &__content {
-    @include on-dekstop {
+    @include on-desktop {
       display: flex;
       justify-content: center;
       flex-direction: row;

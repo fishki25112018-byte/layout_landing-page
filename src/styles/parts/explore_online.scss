@@ -5,7 +5,7 @@
   @include margin-inline;
 
   &__content {
-    @include on-dekstop {
+    @include on-desktop {
       display: flex;
       gap: 24px;
       place-content: center;
@@ -27,7 +27,7 @@
       line-height: 48px;
     }
 
-    @include on-dekstop {
+    @include on-desktop {
       max-width: 500px;
     }
   }

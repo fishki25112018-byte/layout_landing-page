@@ -19,10 +19,10 @@
     @include margin-inline;
 
     @include on-tablet {
-      margin-top: 32px;
+      margin-top: 50px;
     }
 
-    @include on-dekstop {
+    @include on-desktop {
       margin-inline: 120px;
     }
   }
